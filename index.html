@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"></style>
+</head>
+<body>
+    
+
+<div class="container">
+  
+<h1 id="cc" class="cntdn">Timer </h1>
+<div class="text">
+
+
+<div class="item">
+        <label for="hours">Hours:</label>
+        <input type="number" id="hours" min="0" max="24" class="inp">
+    
+</div>
+      
+      <div  class="item">
+        <label for="minutes">Minutes:</label>
+        <input type="number" id="minutes" min="0" max="60" class="inp">
+        </div>
+<div  class="item">
+        <label for="seconds">Seconds:</label>
+        <input type="number" id="seconds" min="0" max="60" class="inp" >
+</div>
+
+</div>
+    ​<div class="buttons">
+
+
+    <button id="start-button" class="btn" onclick="getdata()">Start</button>
+  <button id ="reset" class="btn" onclick="resettime()">Reset</button>
+     </div>
+</div>
+
+<audio id="audio" src="audio/aud.wav"></audio>
+
+   <script src="script.js"></script>
+
+</body>
+</html>

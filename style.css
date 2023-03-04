@@ -1,0 +1,68 @@
+.container
+{
+height:320px;
+width:500px;
+padding:auto;
+margin:auto;
+   position:absolute;
+   top:25vh;
+   left:68vh;
+    background-image: linear-gradient(to right, rgb(144, 234, 248) ,rgb(73, 198, 235),rgb(52, 189, 231) ,rgb(18, 156, 207)  ); 
+
+border-radius: 20px;
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+text-align: center;
+justify-content: center;
+}
+input
+{
+    height:20px;
+    width:40px;
+    background-color: rgb(249, 244, 244);
+   
+}
+.text
+{
+display:flex;
+
+height:30%;
+width:80%;
+margin:auto;
+padding:auto;
+justify-content: center;
+align-items: center;
+justify-content: space-evenly;
+
+}
+.buttons
+{
+    display:flex;
+
+    height:20%;
+    width:80%;
+    margin:auto;
+    padding:auto;
+    justify-content: space-evenly;
+    
+    }
+
+    .btn{
+
+background-color: rgb(255, 255, 255);
+border-radius: 30px;
+        height:35px;
+        
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        width:80px;
+    }
+
+    .cntdn
+    {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+font-size: 50px;
+        
+    }
+    .inp
+    {box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+        border-radius: 10px;
+    }
